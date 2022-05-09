@@ -6,6 +6,7 @@ import 'package:everything_shivpuri_app/screen/contact_us.dart';
 import 'package:everything_shivpuri_app/screen/helpline_route.dart';
 import 'package:everything_shivpuri_app/screen/uit_details.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -46,6 +47,11 @@ void main() async {
               url6: '',
             ),
       },
+    ),
+  );
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      systemNavigationBarColor: Color.fromARGB(255, 0, 0, 0),
     ),
   );
 }
@@ -574,6 +580,8 @@ class RouteOne extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 16.0),
               child: InkWell(
+                // splashColor: Colors.grey,
+                // highlightColor: Colors.blue,
                 child: Container(
                   decoration: const BoxDecoration(
                     //borderRadius: BorderRadius.circular(10.0),

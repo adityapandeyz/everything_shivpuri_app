@@ -36,7 +36,7 @@ class AboutUs extends StatelessWidget {
               ),
               Center(
                 child: Text(
-                  'Aditya Pandey, Anirudh Singh Bhaduria, Abhudey Sharma, Shiven Kumar Mishra, Shivam Shahi, Aditya Tripathi, Shivansh Pandey, Ishank Rajiv Pathak, Md Shoaib',
+                  'Aditya Pandey, Anirudh Singh Bhadauria, Ishank Rajiv Pathak, Abhyuday Sharma, Shiven Kumar Mishra, Shivam Shahi, Aditya Tripathi, Shivansh Pandey',
                   style: TextStyle(
                     color: Color.fromARGB(255, 255, 255, 255),
                   ),
@@ -44,7 +44,7 @@ class AboutUs extends StatelessWidget {
                 ),
               ),
               Text(
-                'App version: 1.0.0',
+                'Version: 2.2.0+4',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
                 ),

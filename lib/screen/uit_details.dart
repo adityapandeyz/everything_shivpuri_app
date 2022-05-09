@@ -82,7 +82,7 @@ class UitDetails extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top: 16.0),
+                      padding: const EdgeInsets.only(top: 16.0, bottom: 16.0),
                       child: BlurryContainer(
                         borderRadius: BorderRadius.circular(20),
                         bgColor: const Color.fromARGB(255, 255, 250, 250),
