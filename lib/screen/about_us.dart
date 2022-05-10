@@ -44,7 +44,7 @@ class AboutUs extends StatelessWidget {
                 ),
               ),
               Text(
-                'Version: 2.2.0+4',
+                'Version: 3.0.0+5',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
                 ),

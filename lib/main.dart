@@ -826,17 +826,19 @@ class RouteOne extends StatelessWidget {
                               ),
                             ),
                             Expanded(
-                                child: Text(
-                              'The cultural heritage\nof Shivpuri',
-                              style: GoogleFonts.workSans(
-                                color: const Color.fromARGB(255, 255, 255, 255),
+                              child: Text(
+                                'The cultural heritage\nof Shivpuri',
+                                style: GoogleFonts.workSans(
+                                  color:
+                                      const Color.fromARGB(255, 255, 255, 255),
 
-                                //textStyle:Theme.of(context).textTheme.headline4,
-                                fontSize: 15,
-                                //fontWeight: FontWeight.w500,
-                                //fontStyle: FontStyle.italic,
+                                  //textStyle:Theme.of(context).textTheme.headline4,
+                                  fontSize: 15,
+                                  //fontWeight: FontWeight.w500,
+                                  //fontStyle: FontStyle.italic,
+                                ),
                               ),
-                            )),
+                            ),
                           ],
                         ),
                       )
@@ -846,8 +848,7 @@ class RouteOne extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                        builder: (context) => const ChhatriDetails()),
+                    MaterialPageRoute(builder: (context) => ChhatriDetails()),
                   );
                 },
               ),
