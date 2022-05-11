@@ -56,7 +56,8 @@ class HelplineCard extends StatelessWidget {
                       children: [
                         ClipRRect(
                           borderRadius: BorderRadius.circular(8.0),
-                          child: const SizedBox(
+                          child: Container(
+                              padding: EdgeInsets.only(left: 20),
                               height: 65,
                               width: 65,
                               child: Icon(
@@ -68,7 +69,7 @@ class HelplineCard extends StatelessWidget {
                       ],
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 8, top: 20),
+                      padding: const EdgeInsets.only(left: 16, top: 20),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -77,7 +78,7 @@ class HelplineCard extends StatelessWidget {
                             style: GoogleFonts.roboto(
                               color: const Color.fromARGB(255, 255, 252, 252),
                               textStyle: Theme.of(context).textTheme.headline4,
-                              fontSize: 19,
+                              fontSize: 17,
                               fontWeight: FontWeight.w600,
                               //fontStyle: FontStyle.italic,
                             ),
@@ -87,7 +88,7 @@ class HelplineCard extends StatelessWidget {
                             style: GoogleFonts.roboto(
                               color: Colors.grey,
                               //textStyle:Theme.of(context).textTheme.headline4,
-                              fontSize: 18,
+                              fontSize: 15,
                               //fontWeight: FontWeight.w500,
                               fontStyle: FontStyle.italic,
                             ),

@@ -26,7 +26,7 @@ class UitDetails extends StatelessWidget {
           backgroundColor: Colors.black54,
           blurColor: Colors.transparent,
           header: Image.asset(
-            "assets/images/colllege_hostel_view.jpeg",
+            "assets/images/1349eca6-802f-4f8a-8487-899c67a7cb67.jpeg",
             fit: BoxFit.cover,
           ),
           // overlay: Align(

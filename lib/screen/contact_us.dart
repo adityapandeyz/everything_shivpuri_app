@@ -68,12 +68,12 @@ class ContactUs extends StatelessWidget {
                               blurRadius: 10.0,
                               spreadRadius: 2.0,
                             ), //BoxShadow
-                            BoxShadow(
-                              color: Colors.white,
-                              offset: Offset(0.0, 0.0),
-                              blurRadius: 0.0,
-                              spreadRadius: 0.0,
-                            ), //BoxShadow
+                            // BoxShadow(
+                            //   color: Colors.white,
+                            //   offset: Offset(0.0, 0.0),
+                            //   blurRadius: 0.0,
+                            //   spreadRadius: 0.0,
+                            // ), //BoxShadow
                           ],
                         ),
                         child: Padding(

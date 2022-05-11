@@ -21,36 +21,47 @@ class AboutUs extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             //crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
-              Text(
+            children: [
+              const Text(
                 ' About Us',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
                 ),
               ),
-              Text(
+              const Text(
                 ' Developers:',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
                 ),
               ),
-              Center(
-                child: Text(
-                  'Aditya Pandey, Anirudh Singh Bhadauria, Ishank Rajiv Pathak, Abhyuday Sharma, Shiven Kumar Mishra, Shivam Shahi, Aditya Tripathi, Shivansh Pandey',
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 255, 255, 255),
+              Container(
+                decoration: const BoxDecoration(
+                  //borderRadius: BorderRadius.circular(10.0),
+                  gradient: LinearGradient(
+                    colors: [
+                      Color.fromARGB(255, 57, 14, 177),
+                      Color.fromARGB(255, 214, 9, 9),
+                    ],
                   ),
-                  textAlign: TextAlign.center,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Color.fromARGB(255, 0, 0, 0),
+                    )
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Image.asset('assets/app_logo/dot.-150x150.png'),
                 ),
               ),
-              Text(
-                'Version: 3.0.0+5',
+              const Text(
+                'Version: 3.2.0+6',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
                 ),
                 //textAlign: TextAlign.,
               ),
-              Text(
+              const Text(
                 '© 2022 dotResolution Studio',
                 style: TextStyle(
                   color: Color.fromARGB(255, 255, 255, 255),
