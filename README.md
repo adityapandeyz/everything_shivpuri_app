@@ -1,16 +1,10 @@
+![Everything Shivpuri !!](https://user-images.githubusercontent.com/40023090/170111044-8881e554-9b0f-4898-9e05-96b1f35fe596.jpg)
 # everything_shivpuri_app
 
-A new Flutter project.
+Visualise moving to another city or even a new place that you are completely unfamiliar with, imagine getting a haircut or even buying groceries. Who will you ask for a suggestion? How will you get familiar with that place? How will you explore things there? To solve this problem we have introduced a platform which helps visitors to know and navigate places inside the Shivpuri district.
+*
+*
+*
+*
+© dotResolution Studio
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
