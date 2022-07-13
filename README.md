@@ -8,4 +8,9 @@ Visualise moving to another city or even a new place that you are completely unf
 *
 © dotResolution Studio
 
-![Screenshot_1651949985](https://user-images.githubusercontent.com/40023090/170111326-ccb6d394-c09b-485c-879c-61fa3d6224be.png)
+|  Home Screen  | Category View |
+| ------------- | ------------- |
+| ![Screenshot_1651949985](https://user-images.githubusercontent.com/40023090/170111326-ccb6d394-c09b-485c-879c-61fa3d6224be.png)  | ![Screenshot_1651950094](https://user-images.githubusercontent.com/40023090/178809081-5cbb41a9-85f3-4705-b667-d9a88a0d6073.png)  | Content Cell  |
+
+
+
